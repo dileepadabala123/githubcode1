@@ -8,7 +8,7 @@ public class DeadpoolDrawing extends JPanel {
         super.paintComponent(g);
         Graphics2D g2d = (Graphics2D) g;
 
-        // Set rendering hints for smooth edges
+        // Seta rendering hints for smooth edges
         g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
 
         // Define the size and position for the Deadpool head
